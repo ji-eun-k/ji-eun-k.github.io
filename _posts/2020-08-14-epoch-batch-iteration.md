@@ -27,7 +27,7 @@ use_math : true
 
 💡 메모리의 한계와 속도 저하 때문에 한 번의 epoch에서 모든 데이터를 한꺼번에 집어넣을 수 없음 <br>
 
-## interation
+## iteration
 **한 epoch 에서 batch를 학습하는 횟수**
 
 전체 데이터에 대한 오차 총합으로 propagation을 수행하면 weight가 한 번에 크게 변할 수 있기 때문에 gradient decent처럼 조금씩 이동해 최적화 할 수 있도록 한다.<br>
